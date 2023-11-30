@@ -6,3 +6,26 @@
     padding : 10px 20px;
     cursor:pointer;
 }
+
+.cell-row {
+    display:flex;
+}
+
+.cell {
+    width: 80px;
+    height: 40px;
+    border: solid 1px lightgrey;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+.cell.header {
+    text-align: center;
+    background-color: #ddd;
+}
+
+.cell.header.active {
+    background-color: lightblue;
+    color: white;
+}
